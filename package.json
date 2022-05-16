@@ -1,0 +1,29 @@
+{
+  "name": "feminisbot",
+  "version": "1.0.0",
+  "description": "Feministech bot for Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feministech/feminisbot-discord.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "feministech",
+    "discordjs"
+  ],
+  "author": "Feministech",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/feministech/feminisbot-discord/issues"
+  },
+  "homepage": "https://github.com/feministech/feminisbot-discord#readme",
+  "dependencies": {
+    "discord.js": "^12.4.0",
+    "dotenv": "^16.0.0"
+  }
+}

@@ -1,4 +1,5 @@
 const fs = require("fs")
+const rolesMessage = "976953029842571334"
 
 exports.feministechRoles = async (client, reaction, user) => {
 
@@ -18,9 +19,18 @@ exports.feministechRoles = async (client, reaction, user) => {
   }
 
   if (
-    reaction.message.id == "975481713251737630"
+    reaction.message.id == rolesMessage
   ) {
     switch (reaction.emoji.name) {
+      case "🎥":
+        member.roles.add(feministechServer.roles.cache.get("755897255684341812"));
+        break;
+      case "🎨":
+        member.roles.add(feministechServer.roles.cache.get("905948838802632715"));
+        break;
+      case "🎙️":
+        member.roles.add(feministechServer.roles.cache.get("947153183455707136"));
+        break;
       case "🏳️‍🌈":
         member.roles.add(feministechServer.roles.cache.get("858455456313376789"));
         break;

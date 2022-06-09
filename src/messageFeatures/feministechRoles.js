@@ -37,6 +37,9 @@ exports.feministechRoles = async (client, reaction, user) => {
       case "🏳️‍⚧️":
         member.roles.add(feministechServer.roles.cache.get("975418957613916212"));
         break;
+      case "💗":
+        member.roles.add(feministechServer.roles.cache.get("984576783280140329"));
+        break;
       case "💛":
         member.roles.add(feministechServer.roles.cache.get("975419320270200924"));
         break;
@@ -79,7 +82,6 @@ exports.feministechRoles = async (client, reaction, user) => {
       case "📗":
         member.roles.add(feministechServer.roles.cache.get("975421044661813278"));
         break;
-
       default:
         break;
     }

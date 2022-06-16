@@ -16,7 +16,7 @@ Atualmente, os cargos que o bot consegue adicionar são:
 
 - 🏳️‍🌈: @LGBTQIA+ 
 - 🏳️‍⚧️ : @Trans
-- 💗 : @não monog
+- 💗 : @não monogâmique
 - 💛: @NaoBinarie 
 - 🟤: @Elu/Delu 
 - 🟢: @Ela/Dela 

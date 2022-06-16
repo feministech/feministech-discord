@@ -15,7 +15,8 @@ Atualmente, os cargos que o bot consegue adicionar são:
 ## Cargos relacionados a identidade de gênero, orientação sexual e pronomes:
 
 - 🏳️‍🌈: @LGBTQIA+ 
-- 🏳️‍⚧️ : @Trans 
+- 🏳️‍⚧️ : @Trans
+- 💗 : @não monog
 - 💛: @NaoBinarie 
 - 🟤: @Elu/Delu 
 - 🟢: @Ela/Dela 

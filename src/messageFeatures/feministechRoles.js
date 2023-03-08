@@ -3,9 +3,6 @@ const rolesMessage = "976953029842571334"
 
 exports.feministechRoles = async (client, reaction, user) => {
 
-  const feministechServer = client.guilds.cache.get("735108082715066376")
-  let member = feministechServer.members.cache.get(user.id)
-
   // When a reaction is received, check if the structure is partial
   if (reaction.partial) {
     // If the message this reaction belongs to was removed, the fetching might result in an API error which should be handled
@@ -17,6 +14,9 @@ exports.feministechRoles = async (client, reaction, user) => {
       return;
     }
   }
+
+  const feministechServer = client.guilds.cache.get("735108082715066376")
+  let member = feministechServer.members.cache.get(user.id)
 
   if (
     reaction.message.id == rolesMessage

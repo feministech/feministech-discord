@@ -1,7 +1,7 @@
 {
-  "name": "feminisbot",
+  "name": "lilly",
   "version": "1.0.0",
-  "description": "Feministech bot for Discord",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/feministech/feminisbot-discord#readme",
   "dependencies": {
+    "axios": "^1.4.0",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.0"
   }

@@ -1,16 +1,10 @@
 require("dotenv").config();
-const { Client, GatewayIntentBits, Partials, PartialWebhookMixin } = require("discord.js");
+const Discord = require("discord.js");
 
 const { startClientFeatures } = require("./clientFeatures/startClientFeatures");
 
-const client = new Client({
-  partials: [Partials.Message, Partials.Channel, Partials.Reaction],
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.GuildMembers,
-    GatewayIntentBits.GuildMessageReactions,
-  ]
+const client = new Discord.Client({
+  partials: ["MESSAGE", "CHANNEL", "REACTION"],
 });
 client.login(process.env.TOKEN);
 

@@ -1,7 +1,7 @@
 const { clientOnReady } = require("./clientOnReady");
+const { clientOnMessageReaction } = require("./clientOnMessageReaction")
 
 exports.startClientFeatures = (client) => {
-  clientOnMessage(client);
   clientOnReady(client);
-  clientOnMessageReactionAdd(client);
+  clientOnMessageReaction(client);
 };

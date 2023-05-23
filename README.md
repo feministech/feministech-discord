@@ -20,7 +20,7 @@ Atualmente, os cargos que o bot consegue adicionar são:
 - 💛: @NaoBinarie 
 - 🟤: @Elu/Delu 
 - 🟢: @Ela/Dela 
-- 🟡: @Ela/Delu 
+- 🟡: @Ele/Dele
 - ⚪: @TodosPronomes 
 
 ## Cargos relacionados ao que você faz:

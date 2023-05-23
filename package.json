@@ -1,10 +1,11 @@
 {
-  "name": "lilly",
+  "name": "feministech",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
   },
   "homepage": "https://github.com/feministech/feminisbot-discord#readme",
   "dependencies": {
-    "discord.js": "^12.4.0",
+    "discord.js": "^14.11.0",
     "dotenv": "^16.0.0"
   }
 }

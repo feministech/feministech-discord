@@ -43,14 +43,14 @@ exports.feministechRoles = async (client, reaction, user, roleAdd) => {
       case "💛":
         messageReaction(feministechServer.roles.cache.get("975419320270200924"), member, roleAdd);
         break;
-      case "🟢":
+      case "🟢": // ela/dela
         messageReaction(feministechServer.roles.cache.get("975419561161682985"), member, roleAdd);
         break;
-      case "🟤":
-        messageReaction(feministechServer.roles.cache.get("975419683312373790"), member, roleAdd);
-        break;
-      case "🟡":
+      case "🟤": // elu/delu
         messageReaction(feministechServer.roles.cache.get("975420050813120582"), member, roleAdd);
+        break;
+      case "🟡": // ele/dele
+        messageReaction(feministechServer.roles.cache.get("975419683312373790"), member, roleAdd);
         break;
       case "⚪":
         messageReaction(feministechServer.roles.cache.get("975419804334825632"), member, roleAdd);
